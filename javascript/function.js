@@ -1,4 +1,4 @@
-// will hide the section and show history
+// will hide the seection and appears history section
 
 function showSectionById (id){
     document.getElementById('donation-content').classList.add('hidden')
@@ -7,7 +7,7 @@ function showSectionById (id){
     document.getElementById(id).classList.remove('hidden')
 }
 
-// all input value get by id
+// all input value
 function inputFieldGetById(id){
     const inputValue = Number(document.getElementById(id).value);
     return inputValue
